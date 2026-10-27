@@ -439,6 +439,9 @@ button { font: inherit; color: inherit; }
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
+.view h4.profile-courses-heading {
+  margin-top: 0.9rem;
+}
 .view ul { padding-left: 1.125rem; }
 .view li::marker { content: "▸ "; color: #82b8ff; }
 .dim { color: var(--screen-muted); }

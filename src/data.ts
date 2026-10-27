@@ -21,8 +21,7 @@ export const ME = {
     { label: "LinkedIn", href: "https://www.linkedin.com/in/aryan-r-3a7b17201/" },
     { label: "GitHub", href: "https://github.com/Shonk7" }, 
   ],
-  honours: ["Dean's List", "ADF Future Innovators Award"],
-  courses: ["Data Structures", "Algorithms", "Operating Systems", "Distributed Systems", "Computer Networks", "Control Systems"],
+  courses: ["Data Structures", "Algorithms", "Operating Systems", "Computer Networks", "Control Systems"],
 };
 
 export const EXPERIENCE: Entry[] = [

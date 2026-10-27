@@ -35,9 +35,7 @@ function Profile() {
           <dt>Class</dt><dd>{ME.focus}</dd>
         </dl>
       </div>
-      <h4>Honours</h4>
-      <ul>{ME.honours.map((h) => <li key={h}>{h}</li>)}</ul>
-      <h4>Courses cleared</h4>
+      <h4 className="profile-courses-heading">Courses cleared</h4>
       <p className="dim">{ME.courses.join(" · ")}</p>
     </div>
   );
