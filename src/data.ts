@@ -19,7 +19,7 @@ export const ME = {
   email: "aryanradev@gmail.com",
   links: [
     { label: "LinkedIn", href: "https://www.linkedin.com/in/aryan-r-3a7b17201/" },
-    { label: "GitHub", href: "https://github.com/" }, // TODO: add your handle
+    { label: "GitHub", href: "https://github.com/Shonk7" }, 
   ],
   honours: ["Dean's List", "ADF Future Innovators Award"],
   courses: ["Data Structures", "Algorithms", "Operating Systems", "Distributed Systems", "Computer Networks", "Control Systems"],
