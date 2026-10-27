@@ -527,6 +527,10 @@ button { font: inherit; color: inherit; }
 }
 
 @media (max-width: 51.25rem) {
+  :root {
+    --mobile-screen-w: min(calc(100vw - 1.25rem), var(--screen-w));
+  }
+
   body {
     place-items: start center;
     padding: 0.75rem 0.625rem 1.25rem;
@@ -562,12 +566,21 @@ button { font: inherit; color: inherit; }
 
   .top-shell {
     height: auto;
+    width: var(--mobile-screen-w);
+    margin: 0 auto;
+  }
+
+  .lower-deck {
+    width: var(--mobile-screen-w);
+    margin: 0 auto;
   }
 
   .top-screen,
   .menu-screen {
-    width: min(100%, var(--screen-w));
-    margin: 0 auto;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
   }
 
   .top-screen {
